@@ -8,12 +8,12 @@ const mySelfs = {
   profession: 'jobHolder'
   }
 }
-// const keys = Object.keys(mySelfs)
-// console.log(keys);
-// const values = Object.values(mySelfs)
-// console.log(values);
-// const entries = Object.entries(mySelfs)
-// console.log(entries);
+const keys = Object.keys(mySelfs)
+console.log(keys);
+const values = Object.values(mySelfs)
+console.log(values);
+const entries = Object.entries(mySelfs)
+console.log(entries);
 Object.freeze(mySelfs)
 delete mySelfs.ages
 mySelfs.style = 'red'
